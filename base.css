@@ -7,19 +7,27 @@ body {
 	font-size:100%;
 }
 #contenedor {
+	display: flex;
 	width: 800px;
 	background: #8FA68E;
 	margin-right:auto;
 	margin-left:auto;
 	overflow: hidden;
+	flex-direction: column;
 }
 nav {
 	background: #CC3910;
 	float: left;
+	margin-left: auto;
+	margin-left: auto;
 	width: 160px;
 }
 ul {
+	display: flex;
 	list-style-type:none;
+	flex-direction: top;
+	align-items: center;
+	justify-content: space-between;
 }
 a {
 	color:#F1F2C0;
